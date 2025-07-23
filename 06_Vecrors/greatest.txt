@@ -1,0 +1,3 @@
+Greatest digit: 5
+Smallest digit: 1
+Sum of all digits: 15

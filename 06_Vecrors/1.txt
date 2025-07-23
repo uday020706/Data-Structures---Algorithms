@@ -1,0 +1,15 @@
+ek no. lete hai e.g: 12345
+according to condition:
+ greatest_digit=a
+according to logic:
+a=num/10000   //(12345 / 10000) = 1.2345 but we take only 1 because of int.
+b=(num/1000)%10   = 2
+
+condition check hogi:
+ if (b>greatest_digit)
+    {
+        greatest_digit=b;
+    }
+
+    ye condition true ho gayi to aage ki koi condition check nahi hogi else if ke case me;
+    else if tabhi check karega jab previous condition false hogi.
