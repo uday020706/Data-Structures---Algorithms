@@ -25,7 +25,7 @@ int majorityElement( vector <int> vec)
 
 int main ()
 {
-    vector <int> vec= {1, 2, 2, 2, 2, 1};
+    vector <int> vec= {1, 1, 2, 2, 3, 3, 3};
     int result=majorityElement(vec);
     if (result == -1)
     {
